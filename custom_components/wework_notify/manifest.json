@@ -1,16 +1,12 @@
 {
   "domain": "wework_notify",
-  "name": "Wework Notify",
-  "config_flow": false,
+  "name": "企业微信应用通知（多实例）",
+  "version": "1.0.0",
   "documentation": "https://github.com/nesror/ha-wework_notify",
   "issue_tracker": "https://github.com/nesror/ha-wework_notify/issues",
-  "requirements": [],
+  "requirements": ["requests"],
   "dependencies": [],
-  "codeowners": [
-    "27hh",
-    "Mdxin",
-    "nestor",
-    "dscao"
-  ],
-  "version": "2026.3.26"
+  "config_flow": true,
+  "codeowners": ["@nesror"],
+  "iot_class": "cloud_push"
 }
